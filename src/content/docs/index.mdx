@@ -1,0 +1,38 @@
+---
+title: Actuvo Help
+description: Help documentation for Actuvo — nonprofit management platform.
+template: splash
+hero:
+  tagline: Guides and reference docs for Actuvo org admins.
+  actions:
+    - text: Membership Tiers
+      link: /guides/membership-tiers/
+      icon: right-arrow
+    - text: Membership Certificates
+      link: /guides/membership-certificates/
+      icon: right-arrow
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## What would you like to do?
+
+<CardGrid stagger>
+	<Card title="Set up membership tiers" icon="puzzle">
+		Define the tiers for your network — training levels, roles, or participation categories.
+		[Membership Tier Setup →](/guides/membership-tiers/)
+	</Card>
+	<Card title="Print membership certificates" icon="document">
+		Issue and print certificates for your members in bulk.
+		[Membership Certificates →](/guides/membership-certificates/)
+	</Card>
+	<Card title="Configure certificate templates" icon="setting">
+		Create and configure certificate templates with your branding.
+		[Certificate Type Setup →](/guides/certificate-type-setup/)
+	</Card>
+	<Card title="Print conference certificates" icon="star">
+		Issue attendance certificates for conference registrants.
+		[Conference Certificates →](/guides/conference-certificates/)
+	</Card>
+</CardGrid>
